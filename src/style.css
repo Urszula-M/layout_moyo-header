@@ -6,12 +6,6 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -61,10 +55,6 @@ body {
 }
 
 .nav__link:hover {
-  color: var(--blue-color);
-}
-
-.nav__link[data-qa="hover"] {
   color: var(--blue-color);
 }
 
